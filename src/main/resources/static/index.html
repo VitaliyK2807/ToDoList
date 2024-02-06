@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="/js/list.js"></script>
+</head>
+<body>
+    <section class="first-task">
+        <div class="labels">
+            <div class="label-date">Время и дата</div>
+            <div class="label-random-number">Случайное число</div>
+        </div>
+        <div class="edits">
+            <div class="date-and-time"></div>
+            <div class="random-number"></div>
+        </div>
+    </section>
+
+    <section class="tasks">
+        <div class="new-task">
+            <div class="label-title">Ввод названия задачи</div>
+            <textarea class="new-title"></textarea>
+            <div class="label-description">Ввод описания задачи</div>
+            <textarea class="new-description"></textarea>
+            <div class="boolean-column">
+                <div>Boolean значение</div>
+                <textarea class="boolean-text"></textarea>
+            </div>
+            <div></div>
+            <button class="send-task">Отправить</button>
+            <div></div>
+            <button class="changed-record">Изменить</button>
+        </div>
+        <div class="get-tasks">
+            <div class="get-task">
+                <div class="label-set-id">Ввод ID</div>
+                <textarea class="set-id-task"></textarea>
+                <div></div>
+                <button class="send-id-task">Отправить</button>
+                <div></div>
+                <button class="get-all-tasks">Все задачи</button>
+                <div></div>
+                <button class="change-task">Изменить</button>
+                <div></div>
+                <button class="delete-task">Удалить задачу</button>
+            </div>
+            <div class="my-log">
+                <div>Log</div>
+                <div class="list-task"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+</html>
